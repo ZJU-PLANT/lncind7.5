@@ -1,0 +1,12 @@
+# Library
+from matplotlib import pyplot as plt
+from matplotlib_venn import venn2
+
+# Basic Venn
+v = venn2((10, 20, 10), alpha=1)
+
+# Change Backgroud
+plt.gca().set_facecolor('skyblue')
+# 显示边框
+plt.gca().set_axis_on()
+plt.show()
